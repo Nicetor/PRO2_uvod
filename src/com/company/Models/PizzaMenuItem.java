@@ -34,4 +34,9 @@ public class PizzaMenuItem {
     public void setPrize(int prize) {
         this.price = price;
     }
+
+    @Override
+    public String toString(){
+        return this.name + " " + this.description + " " + this.price + ",-";
+    }
 }
